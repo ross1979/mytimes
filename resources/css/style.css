@@ -1,0 +1,183 @@
+body {
+  color: black;
+  margin: 0;
+  font-family: Georgia;
+ font-size: 17px;
+ color: black;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 5;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 30px;
+}
+ .logo img {
+   margin-right: 12px;
+ }
+ .logo span{
+   color: MediumAquamarine;
+ }
+header nav {
+  padding-right: 40px;
+  display: flex;
+  align-content: flex-end;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.articles {
+  display: flex;
+  padding-top: 116px;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
+}
+
+.headline div {
+
+}
+.head-story div {
+
+}
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.text-story{
+  height: 250px;
+}
+.text-story h2{
+  height: 87px;
+}
+.top-story div{
+
+}
+.two-two div {
+
+}
+.image {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+.image.tuna{
+  background-image: url(/Users/rossworby/Projects/mytimes/resources/images/img-story-main.png);
+  text-align: left;
+  font-size: 40px;
+  margin-top: 0;
+  width: 630px;
+
+}
+.image.earth{
+  background-image: url(/Users/rossworby/Projects/mytimes/resources/images/img-story-2.png);
+}
+.image.camera{
+  background-image: url(
+    /Users/rossworby/Projects/mytimes/resources/images/img-story-3.png);
+}
+.image.cat{
+  background-image: url(/Users/rossworby/Projects/mytimes/resources/images/img-story-1.png);
+}
+
+.newsbites{
+  flex-direction: column;
+  margin: 0;
+}
+.bites{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+
+}
+.mini{
+  display: block;
+  padding: 11px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  margin: auto;
+}
+
+footer nav {
+  display: inline-block;
+    padding-left: 25px;
+}
+.info{
+
+}
+
+.mytimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+.copyright{
+  display: block;
+}
