@@ -109,7 +109,7 @@ h2 {
   justify-content: center;
 }
 .image.tuna{
-  background-image: url(/Users/rossworby/Projects/mytimes/resources/images/img-story-main.png);
+  background-image: url(./background/img-story-main.png);
   text-align: left;
   font-size: 40px;
   margin-top: 0;
@@ -117,14 +117,13 @@ h2 {
 
 }
 .image.earth{
-  background-image: url(/Users/rossworby/Projects/mytimes/resources/images/img-story-2.png);
+  background-image: url(./background/img-story-2.png);
 }
 .image.camera{
-  background-image: url(
-    /Users/rossworby/Projects/mytimes/resources/images/img-story-3.png);
+  background-image: url(./background/img-story-3.png);
 }
 .image.cat{
-  background-image: url(/Users/rossworby/Projects/mytimes/resources/images/img-story-1.png);
+  background-image: url(./background/img-story-1.png);
 }
 
 .newsbites{
